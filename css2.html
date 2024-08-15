@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>selectors</h1>
+    <!--element selector-->
+    <style>
+    h4
+    {
+        color:red;
+    }
+
+    </style>
+    <h4>Element selector</h4>
+    <!--ID selector-->
+    <style>
+        #name {
+            color: darkgoldenrod;
+        }
+        </style>
+        <h5 id="name">id selector</h5>
+        <!--
+        -id is used for unique identification only
+        -no other tag should have the same id
+        id is represented in css selector wit a "#"-->
+        <!-- class selector-->
+         <style>
+            .name 
+            {color:darksalmon;
+            }
+            </style>
+            <h4 class "name">class selector</h4>
+            <!--class is used for common identification--
+        --other tags can have the same class also.
+        -class is represented in css selector with a "."-->
+        <!--universal selector-->
+        <style>
+            *{
+                font-size:25 px;
+                font-weight: bolder;
+                color:brown;
+            }
+            </style>
+            <p>universal selector</p>
+            <!--universal selector is used once in a web page
+            -universal selector is represented in css with a '*'-->
+            <!--multiple/group selector-->
+            <style>
+                #name,#multi,h4,.name
+                {
+                    font-family: 'Lucida sans','Lucida sans Regular','Lucida Granda', 'Lucida sms unicode', Geneva, Verdana, sans-serif;
+
+                }
+            </style>
+            <h5 id="multi">Multiple/Group selector</h5>
+            <!--it is used to add multiple selector to have a common syling
+            each selectors are separated by a comma-->
+    
+</body>
+</html>
